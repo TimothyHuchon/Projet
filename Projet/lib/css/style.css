@@ -1,0 +1,298 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial"    , sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+
+
+}
+
+.centre{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 18rem;
+    padding-bottom: 35rem;
+    background: #101010;
+
+
+}
+
+.centre video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+}
+
+
+.centre .accueilText {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.centre .accueilText p{
+    width: 55%;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.centre .accueilText a{
+    background: #F5CA02;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    border-color: white;
+    text-decoration: none;
+}
+
+.centre .accueilText a:hover{
+    background-color: #8B0FF5;
+}
+
+.menu1{
+    background: #D6154B;
+}
+
+
+
+
+.menu1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+
+.menu1 .text h6{
+    color: #D6A82B;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+
+.menu1 .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+
+
+.menu1 .text p{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.menu1 .text a{
+    background: #F5CA02;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    border-color: white;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* --------------------------------------*/
+
+.menu2{
+    background: #ED9C0C;
+}
+
+.menu2 .img{
+    height: auto;
+}
+.erreur{
+    color: red;
+}
+
+.menu2 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+
+.menu2 .text h6{
+    color: #D6154B;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+
+.menu2 .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+
+
+.menu2 .text p{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.menu2 .text a{
+    background: #D6154B;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    border-color: white;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ------------------------------------------------*/
+
+.menu3{
+    background: #000;
+}
+
+.menu3 .un{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+}
+
+
+/* --------------------------------------*/
+
+.menu4{
+    background: #AC01F5;
+}
+
+.menu4 .img{
+    height: auto;
+}
+
+
+.menu4 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+
+.menu4 .text h6{
+    color: #D9FC03;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+
+.menu4 .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+
+
+.menu4 .text p{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.menu4 .text a{
+    background: #D9FC03;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    border-color: white;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* test */
+
+.player{
+    position: relative;
+    width: 350px;
+    background: white;
+    box-shadow: 0 50px 80px rgba(0,0,0,0.25);
+}
+
+.player .pochette{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+
+.player .pochette img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.player audio{
+    width: 100%;
+    outline: none;
+}
+
+
+.playlistPage{
+    margin-top: 100px;
+}
+
+.titreplaylist{
+    padding-left: 10px;
+}
+
+.messageerror{
+    color: red;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 50px ;
+}
+
+
+.menuRecherche{
+    margin-top: 100px;
+}
